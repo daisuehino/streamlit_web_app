@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import math
-from streamlit_pdf_viewer import pdf_viewer
+#from streamlit_pdf_viewer import pdf_viewer
 
 st.set_page_config(page_title="透析室面積")
 st.title("透析室面積計算")
@@ -152,6 +152,6 @@ st.write("透析室は１ベッドあたり約8～12㎡です。")
 st.write(f"{day_patients}ベッドでは約{day_patients*8}～{day_patients*12}㎡です")
 
 # 参考図の表示
-st.markdown("---")
-st.write(f"**透析室面積算定参考（ベッド廻り）**")
-pdf_viewer(r"C:\Users\d_hin\Desktop\touseki\01.pdf")
+#st.markdown("---")
+#st.write(f"**透析室面積算定参考（ベッド廻り）**")
+#pdf_viewer(r"C:\Users\d_hin\Desktop\touseki\01.pdf")
