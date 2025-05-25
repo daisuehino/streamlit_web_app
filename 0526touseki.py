@@ -154,4 +154,4 @@ st.write(f"{day_patients}ベッドでは約{day_patients*8}～{day_patients*12}�
 # 参考図の表示
 st.markdown("---")
 st.write(f"**透析室面積算定参考（ベッド廻り）**")
-pdf_viewer(r"C:\Users\d_hin\Desktop\透析室の算定01.pdf")
+pdf_viewer(r"C:\Users\d_hin\Desktop\touseki\01.pdf")
